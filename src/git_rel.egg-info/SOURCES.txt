@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/git_rel/__init__.py
+src/git_rel/changelog.py
+src/git_rel/cli.py
+src/git_rel/github.py
+src/git_rel.egg-info/PKG-INFO
+src/git_rel.egg-info/SOURCES.txt
+src/git_rel.egg-info/dependency_links.txt
+src/git_rel.egg-info/entry_points.txt
+src/git_rel.egg-info/requires.txt
+src/git_rel.egg-info/top_level.txt
