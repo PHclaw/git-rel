@@ -1,6 +1,0 @@
-Initial commit: git-rel v0.1.0
-
-- CLI to generate changelogs from GitHub releases
-- Supports markdown/json/text output
-- Categorizes PRs by labels and title heuristics
-- Works with any public GitHub repo
