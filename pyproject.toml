@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-rel"
+version = "0.1.0"
+description = "Generate changelogs from GitHub releases and merged PRs"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "PHclaw", email = "168465420@qq.com"}]
+requires-python = ">=3.8"
+dependencies = ["requests>=2.28"]
+
+[project.scripts]
+git-rel = "git_rel.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/PHclaw/git-rel"
+Repository = "https://github.com/PHclaw/git-rel"
+
+[tool.setuptools.packages.find]
+where = ["src"]
