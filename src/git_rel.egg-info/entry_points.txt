@@ -1,0 +1,2 @@
+[console_scripts]
+git-rel = git_rel.cli:main
